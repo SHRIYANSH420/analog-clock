@@ -1,6 +1,6 @@
 *
 { 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .clock-dial{
@@ -71,18 +71,18 @@
     left: 40px;
 }
 .hour-11{
-    top: 40px;
-    left: 130px;
+    top: 41px;
+    left: 122px;
 }
 .hour-12{
     top: 10px;
-    left: 240px;
+    left: 230px;
 }
 
 .min-hand-wrapper{
     width: 400px;
     height: 400px;
-    background-color: yellow;
+    
     position: absolute;
     top: 50px;
     left: 50px;
@@ -103,4 +103,64 @@
 
 .min-hand .arrow{
     font-size:30px;
+    font-weight:bold ;
+    color: brown;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -9px;
+}
+
+.hour-hand-wrapper{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.hour-hand{
+    position:relative;
+}
+
+.hour-hand .hand{
+    width: 2px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    left: 148px;
+    ba
+}
+
+.hour-hand .arrow{
+    font-size:30px;
+    font-weight:bold ;
+    color: brown;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 140px;
+    top: -9px;
+    
+}
+
+.second-hand-wrapper{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+}
+
+.second-hand{
+    position:relative;
+}
+
+.second-hand .hand{
+    width: 2px;
+    height: 175px;
+    background-color: brown;
+    position: absolute;
+    left: 174px;
 }
