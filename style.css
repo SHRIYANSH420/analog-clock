@@ -17,4 +17,90 @@
     height:20px;
     background-color: blue;
     border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px
+
+}
+
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    position: absolute;
+}
+
+.hour-1{
+    top: 40px;
+    right:130px
+}
+.hour-2{
+    top: 125px;
+    right:45px
+}
+.hour-3{
+    top:235px;
+    right:10px;
+}
+.hour-4{
+    top: 345px;
+    right:45px;
+}
+.hour-5{
+    top: 430px;
+    right:130px;
+}
+.hour-6{
+    bottom: 10px;
+    left: 240px;
+}
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+.hour-10{
+    top: 125px;
+    left: 40px;
+}
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+.hour-12{
+    top: 10px;
+    left: 240px;
+}
+
+.min-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.min-hand{
+    position:relative;
+}
+
+.min-hand .hand{
+    width: 4px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    left: 198px;
+}
+
+.min-hand .arrow{
+    font-size:30px;
 }
